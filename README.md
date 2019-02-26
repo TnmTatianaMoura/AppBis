@@ -1,2 +1,2 @@
 # AppBis
-Priemiro passo
+Primeiro passo
