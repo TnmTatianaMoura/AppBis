@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppBis</string>
+    <string name="titulo"></string>
+    <string name="email">E-Mail</string>
+    <string name="campo_email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="campo_senha">Senha</string>
+    <string name="login">Fazer Login</string>
+    <string name="semCad">Não é cadastrado? Clique aqui!</string>
+</resources>

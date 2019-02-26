@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="-45dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        tools:context="com.example.tatianamoura.appbis.LoginActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:gravity="center"
+            android:text="@string/titulo"
+            android:textColor="@color/branco"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/email"
+            android:textColor="@color/branco" />
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="113dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/user" />
+
+        <EditText
+            android:id="@+id/loginTxtEmail"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/campo_email"
+            android:inputType="textWebEmailAddress"
+            android:textColor="@color/branco"
+            android:textColorHighlight="@color/branco"
+            android:textColorHint="@color/colorAccent"
+            android:textColorLink="@color/branco"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/branco"
+            android:text="@string/senha"/>
+
+        <EditText
+            android:id="@+id/loginTxtSenha"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/campo_senha"
+            android:inputType="numberPassword"
+            android:textColor="@color/branco"
+            android:textColorHighlight="@color/branco"
+            android:textColorHint="@color/colorAccent"
+            android:textColorLink="@color/branco"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/loginBtnLogin"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/preto"
+            android:text="@string/login"
+            android:textColor="@color/branco"
+            android:textSize="20sp" />
+
+        <!--<Button
+            android:id="@+id/loginBtnSemCad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fundo"
+            android:shadowColor="@color/fundo"
+            android:text="@string/semCad"
+            android:textColor="@color/branco"
+            android:textSize="12sp" />-->
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
